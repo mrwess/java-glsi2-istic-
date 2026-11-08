@@ -1,1 +1,27 @@
+TP-4 JAVA — POINTS DE SAUVEGARDE (ISTIC, Université de Carthage — Wissem Zeddini)
 
+Comme dans un jeu vidéo : chaque dossier est un PROJET COMPLET qui compile et s'exécute.
+Si vous êtes perdu(e) ou si votre code ne compile plus, ouvrez le point de sauvegarde de l'étape
+en cours et reprenez à partir de là. Les étudiants rapides peuvent avancer seuls vers l'étape suivante.
+
+  etape1-Ville                  Classe, objet, constructeur, this, références (deux étiquettes, un dossier)
+  etape2-constructeurs-static   Surcharge de constructeurs, this(...), attribut static
+  etape3-encapsulation          Attributs privés, getters, setter avec validation
+  etape4-tableau-d-objets       Tableau d'objets et cases null
+  etape5-heritage-redefinition  Capitale extends Ville, super(...), @Override
+  etape6-polymorphisme          Tableau mixte, boucle unique, toString(), type déclaré et type réel
+
+OUVRIR UN POINT DE SAUVEGARDE
+  BlueJ       : Project → Open Non BlueJ... → choisir le dossier de l'étape → Open in BlueJ,
+                compiler, puis clic droit sur la classe Monde → void main(String[] args).
+  IntelliJ    : File → Open → choisir le dossier ; ouvrir Monde.java et lancer main.
+  VS Code     : ouvrir le dossier (avec Extension Pack for Java) ; ouvrir Monde.java et lancer main.
+  Terminal    : dans le dossier de l'étape (le JDK doit être installé) :
+                  étapes 1 à 4 :  javac Ville.java Monde.java
+                  étapes 5 et 6 : javac Ville.java Capitale.java Monde.java
+                puis :            java Monde
+
+ATTENTION : dans chaque projet, le nom du fichier est exactement le nom de la classe (Ville.java pour Ville).
+Les fichiers d'un même dossier forment UNE application : ne les collez jamais dans un seul fichier.
+
+Chaque fichier a été compilé (Java 21, sans aucun avertissement) et exécuté.
